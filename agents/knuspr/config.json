@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rohlik": {
+      "command": "npx",
+      "args": ["-y", "@tomaspavlin/rohlik-mcp"],
+      "env": {
+        "ROHLIK_USERNAME": "${ROHLIK_USERNAME}",
+        "ROHLIK_PASSWORD": "${ROHLIK_PASSWORD}",
+        "ROHLIK_BASE_URL": "https://www.knuspr.de"
+      }
+    }
+  }
+}
